@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import ExampleComponent from 'foreman-insights'
+import { Example, Hosts } from 'foreman-insights';
+import './index.css';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Example text="Is it working?" />
+        <Hosts />
       </div>
-    )
+    );
   }
 }

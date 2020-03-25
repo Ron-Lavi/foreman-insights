@@ -5,11 +5,14 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "foreman-insights": "link:..",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^1.1.4",
-    "foreman-insights": "link:.."
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
